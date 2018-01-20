@@ -7,13 +7,10 @@ import Collection.Tree.Comparat.TreeInterface;
 public class Tree<E extends Comparable> implements TreeInterface<E> {
 
 
-    Node<E> root;
+    private Node<E> root;
 
     private  Tree(E value){
         root = new Node<E>(value);
-    }
-
-    private  Tree() {
     }
 
     private  Node<E> getRoot() {
@@ -94,8 +91,6 @@ public class Tree<E extends Comparable> implements TreeInterface<E> {
 
     public Node<E> recursiveFind(Node<E> current, Node<E> nodeToCompare){
 
-        Node<E> nodePrevious;
-
         if(current!=null) {
 
             if (current.compareTo(nodeToCompare) == 0)
@@ -145,7 +140,6 @@ public class Tree<E extends Comparable> implements TreeInterface<E> {
                 nodeParent.setRight(tempRight);
                 return true;
             }
-
         }
          // два сына у удаляемого нода.
         else if (tempLeft != null && tempRight != null) {
