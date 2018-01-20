@@ -1,4 +1,4 @@
-package Tree.Comparat;
+package Collection.Tree.Comparat;
 
 /**
  * Created by Spring on 16.12.2017.

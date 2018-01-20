@@ -1,6 +1,6 @@
-package Tree;
+package Collection.Tree;
 
-import Tree.Comparat.TreeInterface;
+import Collection.Tree.Comparat.TreeInterface;
 /**
  * Created by Spring on 15.12.2017.
  */

@@ -1,6 +1,6 @@
-package Tree.Comparat;
+package Collection.Tree.Comparat;
 
-import Tree.Node;
+import Collection.Tree.Node;
 
 /**
  * Created by Spring on 16.12.2017.
