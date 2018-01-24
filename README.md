@@ -1,5 +1,4 @@
 # WorkExamples
-First programm commit
 Personal implemintation of binary search tree that includes main methods:
 1) insert element;
 2) find element;
