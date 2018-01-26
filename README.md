@@ -1,5 +1,5 @@
 # WorkExamples
-Personal implemintation of binary search tree that includes main methods:
+Personal implemintation of binary search tree that includes general methods:
 1) insert element;
 2) find element;
 3) display all elements;
